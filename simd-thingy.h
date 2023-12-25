@@ -1,9 +1,7 @@
+// SPDX-License-Identifier: MIT OR APACHE2
 #pragma once
 
-#ifndef __OPENCL_C_VERSION__
-#include <stdint.h>
-typedef uint64_t ulong;
-#endif
+#include "ide/Ide.h"
 
 typedef struct {
     ulong x[8];

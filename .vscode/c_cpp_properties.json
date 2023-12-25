@@ -1,16 +1,11 @@
 {
     "configurations": [
         {
-            "name": "Mac",
-            "includePath": [
-                "${workspaceFolder}/**"
-            ],
+            "name": "OpenCl",
+            "includePath": [],
             "defines": [],
-            "macFrameworkPath": [],
-            "compilerPath": "/usr/bin/clang",
-            "cStandard": "c11",
-            "intelliSenseMode": "macos-gcc-arm64",
-            "configurationProvider": "ms-vscode.makefile-tools"
+            "compilerArgs": [],
+            "cStandard": "c99"
         }
     ],
     "version": 4
